@@ -1,0 +1,26 @@
+.parent{
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+ul{
+    font-size: 1em;
+    text-align: left;
+    text-transform:capitalize;
+    
+}
+
+p{
+    font-size: 1em;
+    text-align:center;
+   text-decoration: underline;
+   text-decoration-color: red ;
+   text-decoration-style: wavy;
+   
+}
+

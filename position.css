@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* body{
+  display: grid;
+  place-items: center;
+  
+} */
+.parent{
+    height:500px ;
+    width: 500px;
+    background-image:linear-gradient(to right, rgb(229, 229, 42), rgb(8, 108, 13));
+    
+    position: relative;
+    left: 500px;
+    top: 100px;
+    
+}
+
+#id1{
+  position: absolute;
+}
+
+.child1{
+  height:100px ;
+  width: 100px;
+  background-image:linear-gradient(to right, rgb(9, 213, 213), rgb(4, 4, 74));
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+
+ 
+  
+}
+.child2{
+  height:100px ;
+  width: 100px;
+  background-image:linear-gradient(to left,rgb(9, 213, 213), rgb(4, 4, 74));
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+  top:0;
+  right:0;
+
+
+}
+.child3{
+  height:100px ;
+  width: 100px;
+  background-image:linear-gradient(to right, rgb(9, 213, 213), rgb(4, 4, 74));
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+  bottom:0;
+  left:0;
+ 
+}
+.child4{
+  height:100px ;
+  width: 100px;
+  background-image:linear-gradient(to left,rgb(9, 213, 213), rgb(4, 4, 74));
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+  bottom:0;
+  right:0;
+  
+}
+
+
+.child5{
+  height:100px ;
+  width: 100px;
+  background-image:linear-gradient(to left,rgb(9, 213, 213), rgb(4, 4, 74));
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+
+
+  /* to make the div inside the div */
+  left:50%;
+  top:50%;
+  transform:translate(-50% , -50%)
+  
+}

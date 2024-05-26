@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-shadow: 1px 1px 5px white;
+}
+body{
+  background-color: rgb(56, 109, 118);
+  display: grid;
+  place-items: center;
+
+}
+
+.gridcontainer{
+  box-shadow: 8px 8px 10px #000;
+  border: 2px solid #000;
+  display: grid;
+ 
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 300px 300px 300px;
+
+
+  /* grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: repeat(3,300px);
+  grid-template-columns: repeat(2,300px); */
+
+  /* grid-template-rows: repeat(2,200px);
+  grid-template-columns: repeat(3,200px);  */
+ 
+ 
+  gap:10px 10px;
+  /* align-items: self-start; */
+  /* align-items: center; */
+  /* align-items: self-end;  */
+  align-items: stretch; 
+  /* justify-items: self-start; */
+  /* justify-items: self-end; */
+   /* justify-items: center;  */
+     justify-items: stretch; 
+   /* grid-template-columns: 1fr min-content repeat(1,1fr);  */
+   /* grid-template-columns: 1fr max-content repeat(1,1fr);  */
+   /* grid-template-columns:1fr  minmax(250px,1fr) repeat(1,1fr);  */
+   /* grid-template-columns:   repeat(minmax(250px,1fr));  */
+
+   /* grid-template-columns:   repeat(auto-fill ,minmax(250px,1fr));   */
+
+
+
+}
+
+.item{
+  
+  /* height: 300px;
+  width: 200px; */
+  width: auto;
+  height: auto;
+  display: grid;
+  place-items: center;
+  border: 1px solid #000;
+  color: white;
+  font-weight: 300px;
+  text-transform:capitalize ;
+ 
+}
+
+.item1{
+ 
+  background-image: linear-gradient(to right,rgb(216, 97, 97),rgb(53, 5, 5));
+ 
+}
+.item2{
+  background-image: linear-gradient(to right,rgb(82, 4, 59),rgb(207, 29, 159));
+  /* grid-template-columns: 1fr min-content repeat(1,1fr);  */
+  
+  
+  
+}
+.item3{
+  background-image: linear-gradient(to right,rgb(17, 181, 214),rgb(10, 5, 75));
+  
+}
+.item4{
+  background-image: linear-gradient(to left,rgb(220, 18, 45),rgb(59, 5, 5));
+  /* grid-area:2/2/3/3 ; */
+  /* grid-row: 2/3;
+  grid-column: 2/3; */
+
+}
+.item5{
+  background-image: linear-gradient(to right,rgb(96, 21, 194),rgb(68, 4, 43));
+  grid-area: 1/1/2/2;
+}
+.item6{
+  background-image: linear-gradient(to right,rgb(4, 6, 52),rgb(53, 127, 212));
+}
+.item7{
+  background-image: linear-gradient(to right,rgb(216, 97, 97),rgb(53, 5, 5));
+ 
+}
+.item8{
+  background-image: linear-gradient(to right,rgb(82, 4, 59),rgb(207, 29, 159));
+  
+}
+.item9{
+  background-image: linear-gradient(to right,rgb(17, 181, 214),rgb(10, 5, 75));
+  
+}

@@ -1,0 +1,74 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to left, rgb(196, 141, 204) , rgb(83, 3, 65));
+  
+}
+
+.gridcontainer{
+
+   place-items: center;
+   transition-property: all 10s;
+}
+
+.item{
+   height: 100px;
+   width: 100px;
+   display: grid;
+   border: 2px solid #000;
+   place-items: center;
+}
+
+.item1{
+  background-image: linear-gradient(to left, yellow , green);
+}
+
+.item1:hover{
+  transition: all 2s linear;
+  /* transform:translateX(200px) */
+  /* transform:translateX(-200px) */
+  /* transform:translateY(200px)  */
+
+  translate: 500px 500px;
+  /* scale: 0.4; */
+  /* transform: scaleX(3);
+  transform: scaleY(3); */
+  /* transform: rotate(360deg);      beautiful mast hai ye */
+  /* transform: rotateX(180deg) */
+  /* transform: skew(90deg ); */
+  /* transform: skewY(90deg); */
+  /* rotate: 360deg;
+  transform-origin: left; */
+
+}
+
+
+.item2{
+  background-image: linear-gradient(to left, rgb(216, 183, 13) , rgb(233, 45, 21));
+}
+
+
+.item2:hover{
+    transition: all 2s linear;
+    /* transform:translateX(200px) */
+    /* transform:translateX(-200px) */
+    /* transform:translateY(200px)  */
+
+    /* translate: 500px 500px; */
+    /* scale: 0.4; */
+    /* transform: scaleX(3);
+    transform: scaleY(3); */
+    /* transform: rotate(360deg);      beautiful mast hai ye */
+    /* transform: rotateX(180deg) */
+    /* transform: skew(90deg ); */
+    /* transform: skewY(90deg); */
+    rotate: 360deg;
+    transform-origin: left;
+
+}

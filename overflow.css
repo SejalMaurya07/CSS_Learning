@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to left , yellow,rgb(39, 197, 39),rgb(1, 1, 7));
+  
+}
+
+
+.para1{
+  height: 200px;
+  width: 500px;
+  background-image: linear-gradient(to right , yellow,orange);
+  border: 3px solid black;
+  padding: 5px;
+  margin: 50px;
+  overflow: auto;
+}
+
+
+.para2{
+  height: 200px;
+  width: 500px;
+  background-image: linear-gradient(to right , yellow,orange);
+  border: 3px solid black;
+}

@@ -1,0 +1,44 @@
+h1{
+    color:rgb(16, 151, 16);
+}
+
+#btn{
+    background-color: yellow;
+    color:black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#btn:hover{
+    background-color: orange;
+}
+
+h1:hover{
+  
+    color:red;
+    /* color:transparent;  it is used to transparent the value */
+}
+
+.para{
+    background-color: aqua;
+    color:rgb(9, 9, 53);
+    font-weight: bold;
+    font-size:17px
+}
+
+.para:hover{
+    color:red;
+}
+
+.p1{
+    height:100px;
+    width: 100px;
+    background-color: yellow;
+    background-image:
+    url("https://th.bing.com/th/id/OIP.vwjdbYAM2EvW856DphwLNAAAAA?w=320&h=480&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    /* best method */
+    background-size:100% 100%;      
+    /* background-size: contain; */
+    background-position: right bottom
+}

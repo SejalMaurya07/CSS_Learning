@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: greenyellow;
+}
+
+h1{
+  padding:10px;
+}
+
+div{
+  display: grid;
+  place-items: center;
+}
+
+.big{
+  height: 300px;
+  width: 400px;
+  background-color: aqua;
+  margin: 100px;
+  padding: 10px 10px ;
+  box-shadow: 5px 5px 10px  #000;
+  border:2px solid #000
+  
+}
+
+ul{
+  list-style-type: lower-roman;
+  list-style-position: outside;
+}
+
+li{
+  font-size: 20px;
+   border: 2px solid #000;
+   padding:10px 100px;
+   margin:10px;
+   position: relative;
+   text-align: left;
+
+}
+
+/* .anchor{
+  height: 40px;
+  width: 300px;
+  background-color: aqua;
+  margin:3px;
+  padding: 3px;
+} */
+
+a:link{
+  background-color: aqua;
+  font-size: 20px;
+  margin:4px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+a:hover{
+  background-color: yellow;
+  color:red
+}
+
+a:visited{
+  background-color: rgb(147, 123, 152);
+  color:blue;
+}
+
+a:active{
+  background-color: rgb(247, 91, 24);
+  color:rgb(67, 225, 185)
+}

@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"jost";
+   
+}
+
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:2px 2px 5px #fff
+    
+}
+
+p{
+    font-size: 30px;
+    color:white
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(https://th.bing.com/th/id/R.a14d148cb76d8578eb94c17b91a90657?rik=LR49cKMp%2b6DldQ&riu=http%3a%2f%2fhdwpro.com%2fwp-content%2fuploads%2f2015%2f12%2fWet-Red-Rose.jpg&ehk=KVv%2fx26Kjs9guqDASomVOCiyZqwGsu950QxpEG9PbzQ%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    background-attachment:fixed;
+
+}
+
+.section2{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://th.bing.com/th/id/R.b2d5805b0d8158cd630c83a65d084fa8?rik=3vR4BLIDSFFjZg&riu=http%3a%2f%2ftop10tale.com%2fwp-content%2fuploads%2f2016%2f03%2fhd-flower-images-3.jpg&ehk=OuDccKR0K0ztD%2fULk1SPbXjYOqZUIbPzNGnBE51EY5o%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    background-attachment:fixed;
+
+}
+
+
+.section3{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://wallpapercave.com/wp/0qghkct.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    background-attachment:fixed;
+
+}
+
+
+
+.section4{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://jooinn.com/images/beautiful-spring-flowers-1.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    background-attachment:fixed;
+
+}

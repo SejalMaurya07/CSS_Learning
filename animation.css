@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --timepass-color:white;
+}
+
+body{
+  display: grid;
+ color: var(--timepass-color);
+  background-image: linear-gradient(to left,rgb(164, 164, 12) , rgb(5, 99, 10),rgb(2, 2, 27));
+}
+
+.gridcontainer{
+   
+  display: grid;
+  gap: 20px;
+ 
+
+}
+
+
+.item{
+         height: 100px;
+         width: 100px;
+         display: grid;
+         border-radius: 50%;
+         place-items: center;
+         color: black;
+         font-weight: bold;
+         box-shadow: 0px 0px 9px 3px #000;
+         transition-property: width height background-image;
+         /* transition-property: all; */
+         transition-duration: 0.7s;
+         /* transition-delay: 1s; */
+         transition-timing-function: linear;
+         
+         
+        
+         
+}
+
+.item1{
+  background-image: linear-gradient(to right,yellow , orange);
+  animation-name:lefttoright;
+  animation-duration: 1s;
+  /* **************same speed throughout the animation********************** */
+  animation-timing-function: linear;
+  animation-iteration-count: 7;
+  animation-direction: alternate;
+}
+
+/* @keyframes lefttoright{
+  from{
+    translate: 0%;
+  }
+  to {
+    translate: 90vw;  ye bhi comment
+    translate: calc(90vw); ye bhi comment phir code chalna 
+    translate: 50vw 50vh;
+  }
+} */
+
+@keyframes lefttoright{
+  0% {
+    translate: 0%;
+  }
+
+  50%{
+    translate: 50vw 50vh;
+  }
+  100% {
+    translate: 90vw;
+  }
+}
+
+
+
+
+.item2{
+  background-image: linear-gradient(to right,rgb(170, 36, 197) , rgb(66, 5, 54));
+  animation-name:lefttoright;
+  animation-duration: 1s;
+  /* **************same speed throughout the animation********************** */
+  animation-timing-function: linear;
+  animation-iteration-count: 7;
+  animation-direction: alternate;
+}
+

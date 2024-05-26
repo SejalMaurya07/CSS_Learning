@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.big{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(255, 255, 5) ,rgb(3, 77, 3),rgb(8, 8, 71));
+  place-items: center;
+  display: grid;
+  color:white;
+  
+}
+
+.small{
+  height: 70px;
+  width: 70px;
+  background-image: linear-gradient(to right, rgb(255, 255, 5) ,rgb(3, 77, 3));
+  color:#000;
+  font-size: 20px;
+  font-weight: bold;
+  place-items: center;
+  display: grid;
+  z-index: 1;
+}
+.child1{ 
+  height:100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to left, rgb(225, 225, 14) ,rgb(253, 106, 0),rgb(245, 12, 12));
+}
+
+.child2{ 
+  height:100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to right, rgb(225, 225, 14),rgb(22, 180, 172));
+}
+
+.child3{ 
+  height:100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to left, rgb(225, 225, 14) ,rgb(253, 106, 0),rgb(245, 12, 12));
+}
+
+.child4{ 
+  height:100vh;
+  width: 100%;
+  display: grid;
+  place-items: center; 
+  
+  background-image: linear-gradient(to right, rgb(225, 225, 14),rgb(22, 180, 172));
+}
